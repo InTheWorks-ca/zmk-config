@@ -6,8 +6,10 @@ manifest:
       url-base: https://github.com/InTheWorks-ca
   projects:
     - name: zmk
-      remote: intheworks
-      revision: intheworks-test
+#      remote: intheworks
+#      revision: intheworks-test
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
