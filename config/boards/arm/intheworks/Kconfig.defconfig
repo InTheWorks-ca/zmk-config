@@ -1,7 +1,7 @@
 if BOARD_INTHEWORKS
 
 config BOARD
-	default "lpgalaxy_blank_slate"
+	default "intheworks"
 
 config ZMK_KEYBOARD_NAME
 	default "InTheWorks"
